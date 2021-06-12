@@ -1,17 +1,11 @@
 # Student-SpringBoot
 
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
 ## API Reference
 
 #### Get all items
 
 ```http
-  GET /api/items
+  GET /api/v1/students
 ```
 
 | Parameter | Type     | Description                |
@@ -21,7 +15,7 @@ A brief description of what this project does and who it's for
 #### Get item
 
 ```http
-  GET /api/items/${id}
+  GET /api/student/${id}
 ```
 
 | Parameter | Type     | Description                       |
